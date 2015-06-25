@@ -1,0 +1,34 @@
+{
+  "name": "leanengine-rmi",
+  "version": "0.0.1",
+  "description": "Unit test framework for LeanEngine",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --reporter list --timeout 600000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnsonlee/leanengine-rmi.git"
+  },
+  "keywords": [
+    "avoscloud",
+    "leanengine",
+    "unit-test",
+    "rmi"
+  ],
+  "author": "Johnson Lee <g.johnsonlee@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnsonlee/leanengine-rmi/issues"
+  },
+  "homepage": "https://github.com/johnsonlee/leanengine-rmi",
+  "dependencies": {
+    "xmlhttprequest": "latest"
+  },
+  "devDependencies": {
+    "should": "*"
+  }
+}
